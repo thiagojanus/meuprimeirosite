@@ -1,9 +1,9 @@
 body{
-    background-color: #8B4513;
+    background-color: #808080;
 }
 
 p{
-   color: #00BFFF;
+   color: #000080;
 }
 
 h1,h2{
@@ -17,4 +17,14 @@ figure{
 .container{
     width: 70%;
     margin: auto;
+}
+
+.img_topo{
+
+    width: 50%;
+}
+
+.img_corpo{
+
+    width: 60%;
 }
