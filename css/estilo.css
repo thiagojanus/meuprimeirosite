@@ -3,7 +3,7 @@ body{
 }
 
 p{
-   color: #2F4F4F;
+   color: ghostwhite;
    font-size: 1.5em;
 }
 
@@ -29,3 +29,22 @@ figure{
 
     width: 60%;
 }
+
+a:link {
+    color: rgb(187, 187, 187);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(105, 170, 255);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 136, 0);
+  }
