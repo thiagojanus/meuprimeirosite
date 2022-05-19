@@ -2,8 +2,17 @@ body{
     background-color: #B0C4DE;
 }
 
+.menu{
+  background-color: rgba(100, 149, 237, 0.3);
+  padding: 2%;
+}
+
+.itens_menu{
+  padding-top: ;
+}
+
 p{
-   color: #00BFFF;
+   color: #1C1C1C;
    font-size: 1.5em;
 }
 
