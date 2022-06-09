@@ -39,6 +39,10 @@ h1{
   font-size: 1.5em ;
 }
 
+h2{
+  font-size: 1.5em;
+}
+
 p{
    color: #1C1C1C;
    font-size: 1.5em;
@@ -82,17 +86,55 @@ footer p {
   text-align: center;
   font-size: 1.5em;
 }
+ 
 
 .botao{
-  margin: 1%;
-  width: 100px;
-  height: 30px;
-  padding: 2%;
-  background-color: rgba(100, 149, 237, 0.3);
-  margin: auto;
 
+    background-color:  #800000;
+
+    border: none;
+
+    color: white;
+
+    padding: 15px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+
+    margin: 1%;
+
+    width: 100px;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    border-radius: 8px;
+
+}
+
+.botao p{
+  text-align: center;
 }
 
 .botao:hover{
   background-color: #B0C4DE;
+}
+
+.botao a:link, .botao a:visited{
+  color: bisque;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+section{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
