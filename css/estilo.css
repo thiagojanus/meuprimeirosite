@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Share_Tech_Mono';
+  src: url(../fonts/ShareTechMono-Regular.ttf);
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -37,6 +42,8 @@ body{
 
 h1{
   font-size: 1.5em ;
+ font-family: 'PatuaOne-Regular', cursive; 
+
 }
 
 h2{
@@ -50,6 +57,7 @@ p{
    line-height: 1.3;
    text-align: justify;
    text-indent: 40px;
+   font-family: 'Patua One', cursive;
 }
 
 h1,h2{
