@@ -61,9 +61,11 @@ p{
 }
 
 h1,h2{
-    color: #DAA520;
+    color: #800000;
     text-align: center;
     margin-bottom: 2%;
+    font-family: 'PatuaOne-Regular', cursive; 
+
 }
 figure{
     text-align: center;
@@ -156,6 +158,32 @@ table{
 }
 
 td,th{
-  border: 2px dashed #8B4513s;
+  border: 2px dashed crimson;
   padding: 1%;
+  font-family: 'PatuaOne-Regular', cursive; 
+}
+
+td{
+  font-size: 1.5em;
+ padding: 2%;
+}
+
+th{
+  font-size: 1.5em;
+}
+
+td:first-child{
+  width: 40%;
+}
+
+td:first-child + td{
+  width: 60%;
+}
+
+audio{
+  width: 75%;
+}
+
+audio::webkit-media-controls-panel{
+  background-color: blanchedalmond;
 }
