@@ -149,3 +149,13 @@ section{
   margin-bottom: 2%;
   width: 30%;
 }
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,th{
+  border: 2px dashed #8B4513s;
+  padding: 1%;
+}
