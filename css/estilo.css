@@ -42,8 +42,7 @@ body{
 
 h1{
   font-size: 1.5em ;
- font-family: 'PatuaOne-Regular', cursive; 
-
+  font-family: 'Orbitron', sans-serif, cursive
 }
 
 h2{
@@ -64,7 +63,7 @@ h1,h2{
     color: #800000;
     text-align: center;
     margin-bottom: 2%;
-    font-family: 'PatuaOne-Regular', cursive; 
+    font-family: 'Orbitron', sans-serif, cursive
 
 }
 figure{
@@ -90,6 +89,10 @@ footer{
   background-color: rgba(100, 149, 237, 0.3);
   padding: 2%;
   margin-top: 2%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: #800000;
 }
 
 footer p {
@@ -157,10 +160,18 @@ table{
   border-collapse: collapse;
 }
 
+table, th, td {
+  border: 7px double black;
+  border-radius: 10px;
+}
+
 td,th{
-  border: 2px dashed crimson;
+  
   padding: 1%;
   font-family: 'PatuaOne-Regular', cursive; 
+  border: 7px double black;
+  border-radius: 10px;
+  
 }
 
 td{
