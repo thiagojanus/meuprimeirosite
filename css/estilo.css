@@ -14,6 +14,11 @@ body{
     
 }
 
+header{
+  position: fixed;
+  width: 100%;
+}
+
 .menu, footer{
   background-color: rgba(100, 149, 237, 0.3);
   padding: 2%;
@@ -27,7 +32,7 @@ body{
   
 }
 .itens_menu a:visited, .itens_menu a:link{
-  color: bisque;
+  color: rgb(7, 11, 223);
   text-decoration: none;
   font-weight: bolder;
 
@@ -77,6 +82,14 @@ figure{
 .container{
     width: 70%;
     margin: auto;
+}
+
+.logo{
+  text-align: center;
+}
+
+.img_logo{
+  width: 20%;
 }
 
 .img_topo{
