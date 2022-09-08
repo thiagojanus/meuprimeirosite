@@ -15,22 +15,34 @@ body{
 }
 
 header{
-  position: fixed;
-  width: 100%;
+  background-color: rgba(248, 248, 255, 0.979);
+ padding: 2%;
+ font-family: 'Orbitron', sans-serif, cursive;
+ display: flex;
+ flex-direction: column ;
+ align-items: center;
 }
 
-.menu, footer{
+.fixo{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+ footer{
   background-color: rgba(100, 149, 237, 0.3);
   padding: 2%;
 }
 
 .itens_menu{
-  padding-top: 1% ;
-  line-height: 1.5;
-  text-align: center;
-  font-size: 1.3em;
-  
+ text-align: center;
 }
+
+.itens_menu li{
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
 .itens_menu a:visited, .itens_menu a:link{
   color: rgb(7, 11, 223);
   text-decoration: none;
@@ -277,7 +289,8 @@ input[type=submit]:hover {
   clear: both;
 }
 
-@media screen and (max-width: 500px) {
+/*altera configuraçâo quando a tela estiver menor que 600px*/
+@media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
@@ -287,4 +300,31 @@ input[type=submit]:hover {
     border-radius: 15px;
     background-color: firebrick;
   }
+
+  
 }
+/*altera configuraçâo quando a tela estiver maior que 601px*/
+@media screen and (min-width: 601px){
+     header{
+       background-color: rgba(248, 248, 255, 0.979);
+       flex-direction: row;
+     } 
+     
+     .itens_menu{
+      position: absolute;
+       right: 6%;
+       top:37%;
+       width: 70%;
+     }
+
+     .itens_menu ul li{
+        display: inline;
+        margin-left: 2%;
+     }
+
+     .logo{
+     margin-right: 50%;
+     }
+
+}
+
