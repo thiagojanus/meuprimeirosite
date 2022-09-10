@@ -39,7 +39,7 @@ header{
 }
 
 .itens_menu li{
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: 1.5;
 }
 
@@ -101,7 +101,7 @@ figure{
 }
 
 .img_logo{
-  width: 20%;
+  width: 15%;
 }
 
 .img_topo{
@@ -301,30 +301,50 @@ input[type=submit]:hover {
     background-color: firebrick;
   }
 
+  .logo{
+    text-align: center;
+  }
+
+  .img_logo{
+    width: 30%;
+  }
+
+  .banner{
+    margin-top: 40%;
+  }
+
+  .descer{
+    margin-top: 50%;
+  }
+
   
 }
 /*altera configuraçâo quando a tela estiver maior que 601px*/
 @media screen and (min-width: 601px){
      header{
-       background-color: rgba(248, 248, 255, 0.979);
+       background-color: rgba(248, 248, 255, 0.829);
        flex-direction: row;
+       height: 10%;
      } 
      
      .itens_menu{
       position: absolute;
-       right: 6%;
-       top:37%;
-       width: 70%;
-     }
+      right: 6%;
+      top: 45%;
+      width: 70%;
+  }
 
-     .itens_menu ul li{
-        display: inline;
-        margin-left: 2%;
-     }
+  .itens_menu ul li{
+      display: inline;
+      margin-left: 1%;
+  }
 
-     .logo{
-     margin-right: 50%;
-     }
+  .img_logo{
+    position: absolute;
+    top: 34%;
+  }
+
+  
 
 }
 
