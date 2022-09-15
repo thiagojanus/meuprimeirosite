@@ -27,6 +27,7 @@ header{
   position: fixed;
   width: 100%;
   z-index: 1000;
+  top: 0;
 }
 
  footer{
@@ -107,6 +108,7 @@ figure{
 .img_topo{
 
     width: 100%;
+    margin-bottom: 2%;
 }
 
 .img_corpo{
@@ -306,8 +308,20 @@ input[type=submit]:hover {
   }
 
   .img_logo{
-    width: 30%;
+    width: 20%;
+  } 
+
+  .banner{
+    margin-top: 40%;
   }
+
+  .descer{
+    margin-top: 10%;
+  }
+
+ 
+
+
 
   
 
@@ -337,6 +351,9 @@ input[type=submit]:hover {
     position: absolute;
     top: 34%;
   }
+
+  
+
 
   
 
