@@ -352,6 +352,18 @@ input[type=submit]:hover {
     top: 34%;
   }
 
+  .logo{
+    width: 30%;
+    text-align: left;
+}
+.banner{
+    margin-top: 10%;
+}
+
+.descer{
+    margin-top: 10%;
+}
+
   
 
 
