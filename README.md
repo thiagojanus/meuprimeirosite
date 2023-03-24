@@ -1,2 +1,2 @@
 # Meu primeiro site IW
-https://zezindococo.github.io/meuprimeirosite/
+https://thiagojanus.github.io/meuprimeirosite/
